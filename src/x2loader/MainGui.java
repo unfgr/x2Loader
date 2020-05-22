@@ -622,8 +622,9 @@ private int currentMode = 0;   //only used in mode 2 , so either 0 or 2
         Comms.getInstance().closePort();
         consoleTextArea.append("Trying to Upload Firmware. Please Wait...\r\n");
         try{
+            
             //File nf = new File(this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath());
-            //String path = nf.getParent();
+            //String path2 = nf.getParent();           
             String path = this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath();
             String decodedPath = URLDecoder.decode(path.substring(1,path.length()-13), "UTF-8");
             System.out.println("COMMAND: " + decodedPath + "/maple_upload.bat " + String.valueOf(portsComboBox.getSelectedItem()) +" 2 1EAF:0003 " + decodedPath + "/ArmBlink.bin");

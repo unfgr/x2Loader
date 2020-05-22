@@ -13,6 +13,7 @@ International License][cc-by-sa].
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 In order to Use this you must: 
--> Program the STM32duino-bootloader to your Board's MCU https://github.com/unfgr/STM32duino-bootloader.git
+-> Program the STM32duino-bootloader to your Board's MCU [ https://github.com/unfgr/STM32duino-bootloader.git ]
+
 -> Copy every file in Project Resources Directory to the same location as the generated X2Loader JAR file
 

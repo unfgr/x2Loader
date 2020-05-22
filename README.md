@@ -17,3 +17,6 @@ In order to Use this you must:
 
 -> Copy every file in Project Resources Directory to the same location as the generated X2Loader JAR file
 
+This Project uses  https://github.com/unfgr/STM32duino-bootloader.git In order to support MCU flashing without JTAG device
+
+
